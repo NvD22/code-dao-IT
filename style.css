@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/5074fa51e2b93617a17802aed73f15b5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 51px;
+    font-family: "Raleway", sans-serif;
+}
+
+.tet{
+    width: 720px;
+    height: 60vh;
+    background-color: #ffffffeb;
+    border-radius: 10px;
+    justify-content: space-between;
+    box-shadow: -3px 2px 5px 0px rgba(21,91,27,0.75);
+}
+
+.tet-left,
+.tet-right{
+    width: 50%;
+    flex-direction: column;
+    text-align: center
+}
+
+.tet-left .img img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: -5px 7px 5px 0px rgba(139,139,139,0.75);
+}
+
+.tet-left p{
+    text-align: left;
+    margin: 20px 0 10px;
+    color: #555;
+    font-size: 15px;
+}
+
+.tet-left .input{
+    width:280px;
+    height: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input input{
+    width: 100%;
+    height: 100%;
+    padding: 0 12px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background-color: #fff;
+    font-size: 16px;
+    color: #000;
+}
+
+.input i{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+::-webkit-input-placeholder{
+    font-size: 14px;
+}
+
+.forgot{
+    margin-top: -10px;
+}
+
+.forgot input{
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+.button{
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.button button{
+    padding: 10px 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #27ae60;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    letter-spacing: 3px;
+}
+
+.button span{
+    font-size: 14px;
+}
+
+.tet-left .socials{
+    gap: 40px;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tet-left .socials a{
+    font-size: 17px;
+    color: #00a8ff;
+    transition: 0.3s;
+}
+
+.tet-left .socials a:hover{
+    text-decoration: underline;
+}
+
+.tet-left .socials i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.tet-right{
+    background: url('img/banh-chung-1_1668262682.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    justify-content: center;
+}
+
+.tet-right h2{
+    color: #ecf0f1;
+    margin-top: -360px;
+}
+
+.tet-right h3{
+    color: #fff;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.tet-right .socials{
+    gap: 10px;
+    color: #ffffffc2;
+}
